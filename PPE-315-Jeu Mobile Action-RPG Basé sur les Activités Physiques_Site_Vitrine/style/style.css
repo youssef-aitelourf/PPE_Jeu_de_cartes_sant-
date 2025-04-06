@@ -1,0 +1,125 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f1c2e, #112a46);
+  color: #e0e6f0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #c0e7ff;
+  text-shadow: 0 0 12px #59bfff;
+}
+
+h2 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #c0e7ff;
+  text-shadow: 0 0 10px #59bfff;
+  margin-bottom: 0.5em;
+}
+
+p, li {
+  font-size: 20px;
+}
+
+a {
+  color: #8ecfff;
+  text-decoration: none;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #2980b9;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+a.btn:hover {
+  background: #3498db;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Containers */
+section {
+  padding: 60px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid,
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #00ffff88;
+}
+
+/* Image sizes by section */
+#concept img {
+  max-width: 500px;
+}
+
+#fonctionnalites img {
+  max-width: 320px;
+}
+
+#classement img,
+#victoire img {
+  max-width: 400px;
+}
+
+#modes img,
+#combat img {
+  width: 300px;
+}
+
+#collection img {
+  max-width: 300px;
+}
+
+#cartes img {
+  max-width: 320px;
+}
+
+/* Footer */
+footer {
+  background: #0c1624;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 1rem;
+  line-height: 1.8;
+}
